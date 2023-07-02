@@ -188,6 +188,7 @@ header {
     }
     .navbar__link a {
         color: var(--gray);
+        font-weight: bold;
     }
     .navbar__icons {
         display: none;
@@ -426,6 +427,11 @@ header {
     color: var(--gray);
 }
 
+.footer__contact a:hover {
+    color: var(--purple-m);
+    transition: var(--smooth);
+}
+
 .footer__socials {
     margin-top: 3em;
     display: flex;
@@ -439,7 +445,7 @@ header {
 }
 
 .footer__socials a:hover {
-    color: var(--green-l);
+    color: var(--purple-m);
     transition: var(--smooth);
 }
 
