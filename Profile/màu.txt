@@ -1,0 +1,5 @@
+#54B192 xanh đậm nhất
+#38D29F	xanh sáng
+#805695	tím đậm
+#D590F9 tím vừa
+#F4E3FD	tím nhạt
