@@ -270,7 +270,8 @@ header {
     }
     .banner__img {
         top: 8%;
-        width: 60%;
+        width: 50%;
+        margin-right: 8em;
     }
     .banner__heading img {
         width: 256px;
