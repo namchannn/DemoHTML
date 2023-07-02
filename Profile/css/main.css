@@ -265,6 +265,9 @@ header {
         transform: translateX(-25px);
         margin-top: 1.5em;
     }
+    .banner__heading h2 {
+        transform: translateX(30px);
+    }
     .banner__img {
         top: 8%;
         width: 60%;
@@ -276,7 +279,11 @@ header {
         transform: translateX(-30px);
     }
     .banner__heading p {
+        transform: translateX(25px);
         margin-bottom: 0.5em;
+    }
+    .banner__btn {
+        transform: translateX(10px);
     }
 }
 
