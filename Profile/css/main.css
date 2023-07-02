@@ -423,7 +423,7 @@ header {
 
 .footer__contact {
     margin-top: 3em;
-    display: flex;
+    display: grid;
     justify-content: space-evenly;
 }
 
@@ -451,7 +451,7 @@ header {
 
 .footer__btn {
     text-align: center;
-    margin-top: 8em;
+    margin-top: 5em;
 }
 
 .footer__btn button {
@@ -471,12 +471,16 @@ header {
     }
     .footer__contact {
         display: grid;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        transform: translateX(-25px);
     }
     .footer__socials {
         justify-content: space-evenly;
     }
     .footer__socials a {
         margin-right: 45px;
+    }
+    .footer__btn {
+        transform: translateX(-25px);
     }
 }
