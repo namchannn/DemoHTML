@@ -275,8 +275,8 @@ header {
 
 /* === Skills === */
 #skills {
-    margin-top: 15em;
     padding-top: 2em;
+    margin-bottom: 15em;
     position: relative;
     overflow-x: hidden;
 }
@@ -320,7 +320,6 @@ header {
 #works {
     position: relative;
     overflow-x: hidden;
-    margin-top: 15em;
     padding-top: 2em;
 }
 
