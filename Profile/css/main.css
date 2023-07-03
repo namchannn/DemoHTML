@@ -201,15 +201,14 @@ header {
 /* === Banner === */
 #banner {
     position: relative;
+    overflow: hidden;
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
 .banner__img {
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: relative;
     z-index: -1;
 }
 
@@ -223,7 +222,7 @@ header {
 .banner__heading h1 {
     font-style: oblique;
     font-size: 1.5rem;
-    padding-top: 18em;
+    margin-top: 1em;
     margin-bottom: 0.5em;
 }
 
@@ -255,26 +254,18 @@ header {
         margin: 0;
         padding-top: 0;
         padding-bottom: 25em;
-    }
-    .banner__heading h1 {
-        text-align: center;
-        margin-top: 1.5em;
-    }
-    .banner__heading h2 {
-        text-align: center;
+        transform: translateY(-25%);
     }
     .banner__img {
-        top: 8%;
-        width: 50%;
+        width: 80%;
+        transform: translateX(40%) translateY(65%);
     }
     .banner__heading img {
         width: 256px;
         height: 342px;
         margin-top: 1.5em;
-        text-align: center;
     }
     .banner__heading p {
-        text-align: center;
         margin-bottom: 0.5em;
     }
     .banner__btn {
@@ -401,9 +392,7 @@ header {
 }
 
 .footer__img {
-    position: absolute;
-    top: 10%;
-    right: 0;
+    position:relative;
     transform: translateX(20%);
     z-index: -1;
 }
@@ -459,27 +448,19 @@ header {
 
 @media (min-width: 62em) {
     .footer__img {
-        top: 10%;
-        right: 0;
-        transform: translateX(32%);
         width: 60%;
+        transform: translateX(10%) translateY(60%);
     }
     .footer__heading {
-        text-align: initial;
+        transform: translateX(180%) translateY(-50%);
         margin: 0;
     }
     .footer__contact {
         display: grid;
         justify-content: space-evenly;
-        transform: translateX(-25px);
+        transform: translateX(0);
     }
     .footer__socials {
         justify-content: space-evenly;
-    }
-    .footer__socials a {
-        margin-right: 45px;
-    }
-    .footer__btn {
-        transform: translateX(-25px);
     }
 }
