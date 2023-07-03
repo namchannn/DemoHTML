@@ -291,7 +291,7 @@ header {
 }
 
 .skills__img--single:nth-child(odd) {
-    padding-top: 5em;
+    padding-top: 2em;
 }
 
 .skills__img--single:nth-child(3) {
