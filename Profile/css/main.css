@@ -256,8 +256,8 @@ header {
         transform: translateX(30%) translateY(-10%);
     }
     .banner__img {
-        width: 60%;
-        transform: translateX(65%) translateY(85%);
+        width: 65%;
+        transform: translateX(65%) translateY(80%);
     }
     .banner__heading img {
         width: 256px;
