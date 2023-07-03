@@ -222,11 +222,11 @@ header {
     font-style: oblique;
     font-size: 1.5rem;
     margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 .banner__heading h2 {
     font-size: 1.5rem;
-    margin-bottom: 0.5em;
 }
 
 .banner__heading p {
@@ -238,7 +238,7 @@ header {
     width: 128px;
     height: 170px;
     border-radius: 10%;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 .banner__btn {
@@ -260,7 +260,7 @@ header {
     .banner__heading img {
         width: 256px;
         height: 342px;
-        margin-top: 1.5em;
+        margin: 1em 0 1em;
     }
     .banner__heading p {
         margin-bottom: 0.5em;
