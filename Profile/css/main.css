@@ -228,11 +228,12 @@ header {
 
 .banner__heading h2 {
     font-size: 1.5rem;
+    margin-top: 0.5em;
 }
 
 .banner__heading p {
     font-weight: 400;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 .banner__heading img {
