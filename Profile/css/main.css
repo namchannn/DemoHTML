@@ -176,6 +176,9 @@ header {
 }
 
 @media (min-width: 62em) {
+    .navbar__logo {
+        transform: translateX(220%);
+    }
     .navbar__links {
         position: initial;
         transform: translateX(0);
