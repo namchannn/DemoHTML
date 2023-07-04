@@ -226,6 +226,7 @@ header {
 .banner__heading h1 {
     font-style: oblique;
     font-size: 1.5rem;
+    margin-top: 1em;
     margin-bottom: 0.5em;
 }
 
@@ -257,7 +258,7 @@ header {
         margin: 0;
         padding-top: 0;
         padding-bottom: 30em;
-        transform: translateX(30%) translateY(-10%);
+        transform: translateX(30%) translateY(-15%);
     }
     .banner__img {
         width: 65%;
