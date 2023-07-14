@@ -1,6 +1,5 @@
 body {
-    margin: 100vw;
-    width: 500px;
+    width: 100vw;
 }
 
 input {
@@ -17,12 +16,12 @@ select {
 }
 
 form {
-    padding:20px;
+    padding: 20px;
     background-color: lightgray;
 }
 
 #fsubmit {
     width: 100px;
-    color:white;
+    color: white;
     background-color: green;
 }
