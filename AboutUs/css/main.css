@@ -1,0 +1,58 @@
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin:0 auto;
+}
+
+header {
+    background-color: #3d454d;
+    padding-bottom: 30px;
+    color:white;
+}
+
+main {
+    margin: 20px 0;
+}
+
+.intro {
+    border-left:3px solid gray;
+    border-right:3px solid gray;
+    border-bottom: 3px solid black;
+    border-top: 3px solid lightgray;
+}
+
+.contact {
+    margin: 0 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding:10px 0;
+}
+
+a {
+    color: white;
+}
+
+.infor h5 {
+    color:gray;
+    font-size: 18px;
+}
+
+.infor h4 {
+    font-size: 18px;
+}
+
+.infor h3 {
+    font-size: 24px;
+}
+
+@media (min-width: 62em) {
+    header {
+        margin-bottom: 100px;
+    }
+}
