@@ -98,6 +98,7 @@ header p {
 }
 
 .infors__Person--heading h2 {
+    margin-top: .5rem;
     margin-bottom: .5rem;
 }
 
