@@ -99,7 +99,6 @@ header p {
 }
 
 .infors__Person--heading h2 {
-    margin-top: 1rem;
     margin-bottom: .5rem;
 }
 
@@ -110,12 +109,14 @@ header p {
 }
 
 .infors__Person--heading h4 {
+    font-size: large;
     font-weight: 400;
     margin-bottom: .5rem;
 }
 
 .infors__Person--heading h5 {
-    font-weight: 500;
+    font-size: medium;
+    font-weight: 400;
     margin-bottom: .5rem;
 }
 
