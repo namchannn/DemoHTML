@@ -26,7 +26,7 @@ button {
     background-color: var(--gray);
     padding: .6rem 8rem;
     border: none;
-    border-radius: 2px;
+    border-radius: 10px;
     cursor: pointer;
     transition: var(--smooth);
 }
@@ -88,6 +88,7 @@ header p {
     background-color: var(--white-sm);
     opacity: 1;
     margin-bottom: 1rem;
+    border-radius: 2%;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
