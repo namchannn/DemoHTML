@@ -85,7 +85,6 @@ header p {
 
 .infors__Person--heading {
     text-align: center;
-    background-color: var(--white-sm);
     opacity: 1;
     margin-bottom: 1rem;
     border-radius: 2%;
