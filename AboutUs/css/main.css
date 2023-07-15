@@ -125,7 +125,7 @@ header p {
         align-items: center;
     }
     .infors__Person--heading {
-        padding: 0 5rem;
+        padding: 0 5rem .5rem;
     }
     .infors__Person--heading img {
         width: 100%;
