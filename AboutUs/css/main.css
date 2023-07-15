@@ -1,58 +1,132 @@
-h1, h2, h3, h4, h5 {
-    text-align: center;
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
 }
 
 img {
-    display: block;
-    margin:0 auto;
+    max-width: 100%;
+    width: 100%;
 }
 
-header {
-    background-color: #3d454d;
-    padding-bottom: 30px;
-    color:white;
+.container {
+    width: 100%;
+    margin: 0 auto;
 }
 
-main {
-    margin: 20px 0;
-}
-
-.intro {
-    border-left:3px solid gray;
-    border-right:3px solid gray;
-    border-bottom: 3px solid black;
-    border-top: 3px solid lightgray;
-}
-
-.contact {
-    margin: 0 20px;
+button {
     text-align: center;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    padding:10px 0;
+    color: #fff;
+    background-color: var(--gray);
+    padding: .6rem 8rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: var(--smooth);
 }
 
-a {
-    color: white;
+button:hover {
+    background-color: var(--purple);
+    transition: var(--smooth);
 }
 
-.infor h5 {
-    color:gray;
-    font-size: 18px;
+:root {
+    --purple: #D590F9;
+    --gray: #3F3D56;
+    --gray-l: #808080;
+    --white-sm: #f5f5f5;
+    --smooth: all .3s ease-in;
 }
 
-.infor h4 {
-    font-size: 18px;
+/* header */
+header {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: var(--gray);
+    padding: 1rem 2.5rem 3rem;
 }
 
-.infor h3 {
-    font-size: 24px;
+header h1 {
+    margin-bottom: 1.5rem;
+}
+
+header p {
+    line-height: 2rem;
+}
+
+/* information */
+#infors {
+    margin-top: 1.5rem;
+    padding: 0 1rem;
+    overflow: hidden;
+    align-items: center;
+}
+
+#infors h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.infors__Person {
+    margin: 3rem 0;
+}
+
+.infors__btn {
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.infors__Person--heading {
+    text-align: center;
+    border: 2px transparent;
+    background-color: var(--white-sm);
+    opacity: 1;
+    margin-bottom: 1rem;
+}
+
+.infors__Person--heading img {
+    width: 50%;
+    margin-top: 1rem;
+    border-radius: 100%;
+}
+
+.infors__Person--heading h2 {
+    margin-bottom: .5rem;
+}
+
+.infors__Person--heading h3 {
+    color: var(--gray-l);
+    font-weight: 300;
+    margin-bottom: .5rem;
+}
+
+.infors__Person--heading h4 {
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.infors__Person--heading h5 {
+    font-weight: 500;
+    margin-bottom: .5rem;
 }
 
 @media (min-width: 62em) {
-    header {
-        margin-bottom: 100px;
+    .infors__Person {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .infors__Person--heading {
+        padding: 0 5rem;
+    }
+    .infors__Person--heading img {
+        width: 100%;
     }
 }

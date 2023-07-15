@@ -3,73 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/main.css">
     <title>Information</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <!-- header -->
     <header>
-        <h1>About us</h1>
-        <h5>Một số thông tin giới thiệu về chúng tôi.</h5>
-        <h5>Để các bạn biết chúng tôi là ai và chúng tôi đang làm gì.</h5>
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Một số thông tin giới thiệu về chúng tôi <br>Để các bạn biết chúng tôi là ai và chúng tôi đang làm gì.</p>
+        </div>
     </header>
-    <main>
-        <div>
-            <h3>Our Team</h3>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="intro intro-1">
-                            <div>
-                                <img src="./img/z4516455360936_b29850bd93e781b72446fed5d821e8a5.jpg">
-                            </div>
-                            <div class="infor">
-                                <h3>Ms. Thúy Trần</h3>
-                                <h5>CEO & Founder</h5>
-                                <h4>thang.nguyen@example.com</h4>
-                                <h4>Người sáng lập</h4>
-                            </div>
-                            <div class="contact">
-                                <a href="./forms/form.html">Liên hệ</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="intro intro-2">
-                            <div>
-                                <img src="./img/z4516455354953_8902809d41c1196a757a7cf92b2d27f0.jpg">
-                            </div>
-                            <div class="infor">
-                                <h3>Mr. Thắng Nguyễn</h3>
-                                <h5>CIO</h5>
-                                <h4>thang.nguyen@example.com</h4>
-                                <h4>Giám đốc IT</h4>
-                            </div>
-                            <div class="contact">
-                                <a href="./forms/form.html">Liên hệ</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="intro intro-3">
-                            <div>
-                                <img src="./img/z4516455360993_25c0012a99c46f1aa2a14be82a7f0981.jpg">
-                            </div>
-                            <div class="infor">
-                                <h3>Mr. Hoàng Mai</h3>
-                                <h5>CTO</h5>
-                                <h4>thang.nguyen@example.com</h4>
-                                <h4>Giám đốc công nghệ</h4>
-                            </div>
-                            <div class="contact">
-                                <a href="./forms/form.html">Liên hệ</a>
-                            </div>
-                        </div>
-                    </div>
+    <!-- information -->
+    <section id="infors">
+        <!-- heading -->
+        <h1>Our Team</h1>
+        <div class="container">
+            <!-- img -->
+            <div class="infors__Person">
+                <div class="infors__Person--heading">
+                    <img src="./img/z4516455360936_b29850bd93e781b72446fed5d821e8a5.jpg" alt="">
+                    <h2>Ms. Thúy Trần</h2>
+                    <h3>CEO & Founder</h3>
+                    <h5>thang.nguyen@example.com</h5>
+                    <h4>Người sáng lập</h4>
+                    <a href="form.html"><button class="infors__btn">Liên hệ</button></a>
+                </div>
+                <div class="infors__Person--heading">
+                    <img src="./img/z4516455354953_8902809d41c1196a757a7cf92b2d27f0.jpg" alt="">
+                    <h2>Mr. Thắng Nguyễn</h2>
+                    <h3>CIO</h3>
+                    <h5>thang.nguyen@example.com</h5>
+                    <h4>Giám đốc IT</h4>
+                    <a href="form.html"><button class="infors__btn">Liên hệ</button></a>
+                </div>
+                <div class="infors__Person--heading">
+                    <img src="./img/z4516455360993_25c0012a99c46f1aa2a14be82a7f0981.jpg" alt="">
+                    <h2>Mr. Hoàng Mai</h2>
+                    <h3>CTO</h3>
+                    <h5>thang.nguyen@example.com</h5>
+                    <h4>Giám đốc công nghệ</h4>
+                    <a href="form.html"><button class="infors__btn">Liên hệ</button></a>
                 </div>
             </div>
         </div>
-    </main>
-    <footer></footer>
+    </section>
 </body>
 </html>
