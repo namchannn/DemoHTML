@@ -85,10 +85,10 @@ header p {
 
 .infors__Person--heading {
     text-align: center;
-    border: 2px transparent;
     background-color: var(--white-sm);
     opacity: 1;
     margin-bottom: 1rem;
+    border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
