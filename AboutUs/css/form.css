@@ -30,12 +30,16 @@ input {
     margin-top: .5rem;
     padding: .5rem;
     width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
 }
 
 select {
     margin-top: .5rem;
     padding: .5rem;
     width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
 }
 
 button {
@@ -44,7 +48,7 @@ button {
     background-color: var(--gray);
     padding: .6rem 2rem;
     border: none;
-    border-radius: 2px;
+    border-radius: 10px;
     cursor: pointer;
     transition: var(--smooth);
 }
