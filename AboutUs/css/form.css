@@ -27,8 +27,9 @@ form {
 }
 
 h1 {
+    font-weight: 500;
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 2.5rem;
 }
 
 label {
