@@ -71,13 +71,14 @@ header p {
 }
 
 #infors h1 {
+    font-size: xx-large;
     font-weight: 500;
     margin-top: 1rem;
     text-align: center;
 }
 
 .infors__Person {
-    margin: 3rem 0;
+    margin: 2.5rem 0;
 }
 
 .infors__btn {
