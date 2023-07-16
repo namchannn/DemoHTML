@@ -12,6 +12,10 @@
     padding: 0 1rem 1rem 1rem;
 }
 
+.container__btn {
+    text-align: center;
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
