@@ -22,6 +22,7 @@ body {
 
 form {
     width: 100%;
+    max-width: 850px;
     background-color: var(--white-sm);
     padding-top: 1.5rem;
 }
@@ -53,7 +54,7 @@ select {
 }
 
 button {
-    margin-bottom: 20rem;
+    margin-bottom: 20.3rem;
     color: #fff;
     background-color: var(--gray);
     padding: .6rem 2rem;
@@ -74,4 +75,11 @@ button:hover {
     --gray-l: #808080;
     --white-sm: #f5f5f5;
     --smooth: all .3s ease-in;
+}
+
+@media (min-width: 62em) {
+    form {
+        margin: 0 auto;
+        border: 1px solid #ccc;
+    }
 }
