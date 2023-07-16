@@ -13,17 +13,13 @@
 }
 
 body {
-    font-family: "Arial", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 form {
     width: 100%;
     background-color: var(--white-sm);
     padding-top: 1.5rem;
-}
-
-label {
-    font-weight: bold;
 }
 
 input {

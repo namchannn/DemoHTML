@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "Arial", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 img {
@@ -99,6 +99,7 @@ header p {
 }
 
 .infors__Person--heading h2 {
+    font-weight: 500;
     margin-bottom: .5rem;
 }
 
@@ -110,6 +111,7 @@ header p {
 
 .infors__Person--heading h4 {
     font-size: medium;
+    font-weight: 500;
     margin-bottom: .5rem;
 }
 
