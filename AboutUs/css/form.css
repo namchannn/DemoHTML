@@ -26,6 +26,11 @@ form {
     padding-top: 1.5rem;
 }
 
+h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
 label {
     font-weight: 400;
 }
@@ -47,7 +52,7 @@ select {
 }
 
 button {
-    margin-bottom: 25rem;
+    margin-bottom: 20rem;
     color: #fff;
     background-color: var(--gray);
     padding: .6rem 2rem;
