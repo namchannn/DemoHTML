@@ -72,7 +72,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--green-l);
+    background-color: var(--purple);
     transition: var(--smooth);
 }
 
@@ -98,7 +98,7 @@ td {
 }
 
 :root {
-    --green-l: #A4CEC0;
+    --purple: #D590F9;
     --gray: #3F3D56;
     --white-sm: #f5f5f5;
     --smooth: all .3s ease-in;
