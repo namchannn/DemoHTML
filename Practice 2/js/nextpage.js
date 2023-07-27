@@ -1,4 +1,6 @@
 // nextpage js
+let studentCount = 0;
+// Input form
 document.getElementById('studentForm').addEventListener('submit', function(event) {
     event.preventDefault();
     // Get input valúe
@@ -30,21 +32,25 @@ document.getElementById('studentForm').addEventListener('submit', function(event
         dobCell.innerText = studentDOB;
         genderCell.innerText = studentGender ? studentGender.value : '-';
         // Create an array to store selected languages
-        languageCell.innerText = '';
+        const selectedLanguages = [];
         for (const language of studentLanguages) {
-            languageCell.innerText += language.value + ', ';
+            selectedLanguages.push(language.value);
         }
-        languageCell.innerText = languageCell.innerText.slice(0, -2);
+        // Join the selected languages into a single string
+        languageCell.innerText = selectedLanguages.join(', ');
         // Creat a link to delete the student
         const deleteLink = document.createElement('a');
         deleteLink.href = '#';
         deleteLink.innerText = 'Delete';
         actionCell.appendChild(deleteLink);
+        // Increment student count and update display
+        studentCount++;
+        updateStudentCountDisplay();
         // Clear the form after adding
         document.getElementById('studentForm').reset();
     }
 });
-
+// Add the Class
 document.getElementById('addClassLink').addEventListener('click', function(event) {
     event.preventDefault();
     
@@ -52,7 +58,7 @@ document.getElementById('addClassLink').addEventListener('click', function(event
     if (newClassName && newClassName.trim() !== '') {
         const selectClass = document.getElementById('studentClass');
         const newOption = document.createElement('option');
-        newOption.value = newClassName.toLowerCase().replace(/\s+/g, '');
+        newOption.value = newClassName.replace(/\s+/g, ' ');
         newOption.innerText = newClassName;
         selectClass.appendChild(newOption);
 
@@ -66,6 +72,14 @@ document.getElementById('studentTable').addEventListener('click', function(event
         const row = event.target.parentNode.parentNode;
         if (confirm('Are you sure you want to delete this student?')) {
             row.remove();
+            // Decrement student count and update display
+            studentCount--;
+            updateStudentCountDisplay();
         }
     }
 });
+// Update the display
+function updateStudentCountDisplay() {
+    const studentCountElement = document.getElementById('studentCount');
+    studentCountElement.innerText = `Total: ${studentCount} students`;
+}
