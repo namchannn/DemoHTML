@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Page</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <!-- nextpage css -->
+    <link rel="stylesheet" href="./css/nextpage.css">
+</head>
+<body>
+    <form id="studentForm">
+        <div class="container">
+            <h1>Student management</h1>
+        </div>
+        <div class="container">
+            <label for="studentName">Student Name:</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="studentName" placeholder="Input student name" required>
+        </div>
+        <div class="container">
+            <label for="studentDOB">Student DOB:</label>&nbsp;&nbsp;&nbsp;
+            <input type="date" id="studentDOB">
+        </div>
+        <div class="container">
+            <label>Student Gender:</label>&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="male" name="studentGender" value="Male">
+            <label for="male">Male</label>&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="famale" name="studentGender" value="Famale">
+            <label for="famale">Famale</label>
+        </div>
+        <div class="container">
+            <label>Student Language:</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="english" name="studentLanguage" value="English">
+            <label for="english">English</label>&nbsp;
+            <input type="checkbox" id="vietnamese" name="studentLanguage" value="Vietnamese">
+            <label for="vietnamese">Vietnamese</label>&nbsp;
+            <input type="checkbox" id="japanese" name="studentLanguage" value="Japanese">
+            <label for="japanese">Japanese</label>&nbsp;
+            <input type="checkbox" id="chinese" name="studentLanguage" value="Chinese">
+            <label for="chinese">Chinese</label>&nbsp;
+            <input type="checkbox" id="french" name="studentLanguage" value="French">
+            <label for="french">French</label>
+        </div>
+        <div class="container">
+            <label for="studentClass">Student Class:</label>&nbsp;&nbsp;&nbsp;
+            <select id="studentClass" required>
+                <option value="">Select Class</option>
+                <option value="class A">Class A</option>
+                <option value="class B">Class B</option>
+                <option value="class C">Class C</option>
+            </select>&nbsp;&nbsp;&nbsp;
+            <a href="#" id="addClassLink">Add Class</a>
+        </div>
+        <div class="container__btn">
+            <button type="submit">Add</button>
+        </div>
+    </form>
+    <form>
+        <div class="container">
+            <h1>Student List</h1>
+        </div>
+        <div class="container__table">
+            <table id="studentTable">
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Class</th>
+                        <th>DOB</th>
+                        <th>Gender</th>
+                        <th>Language</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </form>
+    <script src="./js/nextpage.js"></script>
+</body>
+</html>
