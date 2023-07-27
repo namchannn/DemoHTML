@@ -19,7 +19,7 @@
 
 .container__total {
     padding-top: 2rem;
-    padding-left: 45rem;
+    padding-left: 20rem;
 }
 
 .container__btn {
@@ -103,4 +103,10 @@ td {
     --gray-l: #808080;
     --white-sm: #f5f5f5;
     --smooth: all .3s ease-in;
+}
+
+@media (min-width: 62em) {
+    .container__total {
+        padding-left: 45rem;
+    }
 }
