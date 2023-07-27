@@ -3,7 +3,7 @@ let studentCount = 0;
 // Input form
 document.getElementById('studentForm').addEventListener('submit', function(event) {
     event.preventDefault();
-    // Get input valúe
+    // Get input values
     const studentName = document.getElementById('studentName').value;
     const studentClass = document.getElementById('studentClass').value;
     const studentDOB = document.getElementById('studentDOB').value;
@@ -17,7 +17,7 @@ document.getElementById('studentForm').addEventListener('submit', function(event
     // Show confirmation dialog
     const confirmation = confirm('Are you sure you want to add this student?');
     if (confirmation) {
-        // Create a new row for the student in the table
+        // Create a new row
         const studentTable = document.getElementById('studentTable').getElementsByTagName('tbody')[0];
         const newRow = studentTable.insertRow();
         const nameCell = newRow.insertCell();
