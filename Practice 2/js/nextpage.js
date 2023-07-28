@@ -81,5 +81,5 @@ document.getElementById('studentTable').addEventListener('click', function(event
 // Update the display
 function updateStudentCountDisplay() {
     const studentCountElement = document.getElementById('studentCount');
-    studentCountElement.innerHTML = `<span class="bold-text">Total:&nbsp;</span>${studentCount} students`;
+    studentCountElement.innerHTML = `<span class="bold-text">Total:&nbsp;</span><span class="text-decor">${studentCount} students</span>`;
 }
