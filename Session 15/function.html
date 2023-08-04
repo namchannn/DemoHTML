@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var names =new Array('James', 'Kevin', 'Brad');
+        function change_names(names){
+            names[0]= 'Stuart';
+        }
+        function display_names(){
+            document.writeln('<H3> List of Student Names:</H3>');
+            document.write('<UL>');
+            for (var i = 0; i < names.length; i++) {
+            document.write('<LI>' + names[i]+ '</LI>');
+            }
+            document.write('</UL>');
+            change_names(names);
+            document.write('<H3> List of Changed Students Names:</H3>');
+            document.write('<UL>');
+            for (var i = 0; i < names.length; i++) {
+            document.write('<LI>' + names[i]+ '</LI>');
+            }
+            document.write('</UL>');
+
+            var result = add (1, 3);
+            document.write(result);
+        }
+        function add(num1, num2) {
+            return num1 + num2;
+        }
+        var obj = new Object();
+        var object_name = new Array();
+
+        // Contructor function
+        function employee_info(name, age, experience) {
+            this.name = name;
+            this.age = age;
+            this.experience = experience;
+        }
+
+        var obj1 = new student_info('Jame', '23', 'New Jersey');
+        
+        display_names();
+    </script>
+        
+</body>
+</html>

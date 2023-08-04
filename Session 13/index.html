@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <p id="befIncr"></p>
+    <p id="aftIncr"></p>
+    <script>
+        var numOne = 2;
+        var numTwo;
+
+        var befIncr = document.getElementById("befIncr");
+        befIncr.innerHTML = "numTwo = ++numOne => numTwo = " + (numTwo =+ numOne);
+
+        var befOut = document.getElementById("aftIncr");
+        aftIncr.innerHTML = "numTwo = ++numOne => numTwo = " + (numTwo = numOne++);
+    </script>
+    <script>
+        var age = parseInt(prompt("Enter age", "Age"));
+        status = ((typeof(age) == "number" && (age >= 18)) ?"eligible" : "not eligible";
+        document.write('You are ' + age + " years old, so you are " +status + " to vote.");
+    </script>
+    <script>
+        var a = prompt("Nhap so nguyen duong", 0);
+        if ( parseInt(a) < 0 || isNaN(a)){
+            alert('Phai nhap so nguyen duong')
+        }
+    </script>
+</body>
+</html>

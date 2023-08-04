@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Page</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <!-- nextpage css -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="container__header">
+            <div>
+                <img src="./img/binance.png" style="height: 150px;"/>
+            </div>
+            <div>
+                <h1>Work hard..</h1>
+            </div>
+            <div>
+                <img src="./img/Free Vector _ Laptop with program code isometric icon, software development and programming applications dark neon.jpg" style="height: 150px;">
+            </div>
+        </nav>
+    </header>
+    <form id="clientForm">
+        <div class="container">
+            <h1>Sign up Client</h1>
+        </div>
+        <div class="container">
+            <label for="clientName">Full Name:</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="clientName" placeholder="Input name" required>
+        </div>
+        <div class="container">
+            <label for="clientEmail">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" id="clientEmail" placeholder="Input email" required>
+        </div>
+        <div class="container">
+            <label for="clientPhone">Phone:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="clientPhone" placeholder="Input phone" required>
+        </div>
+        <div class="container">
+            <label>Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="male" name="clientGender" value="Male">
+            <label for="male">Male</label>&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="famale" name="clientGender" value="Famale">
+            <label for="famale">Famale</label>
+        </div>
+        <div class="container">
+            <label>Favorite:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="sport" name="favorite" value="Sport">
+            <label for="sport">Sport</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="movie" name="favorite" value="Movie">
+            <label for="movie">Movie</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="book" name="favorite" value="Book">
+            <label for="book">Book</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="music" name="favorite" value="Music">
+            <label for="music">Music</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="other" name="favorite" value="Other">
+            <label for="other">Other</label>
+        </div>
+        <div class="container">
+            <label for="clientIntro">Client Intro:</label>&nbsp;&nbsp;
+            <input type="textarea" id="clientIntro" placeholder="Input client intro">
+        </div>
+        <div class="container__btn">
+            <button type="submit">Add</button>
+        </div>
+    </form>
+        <div id="resultDiv" class="container__result"></div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
