@@ -1,0 +1,15 @@
+.box {
+    width: calc(25% - 20px);
+    /* height: 400px; */ /* bí quá thì mới dùng */
+    float: left;
+    margin: 10px; /* khoảng cách giữa các phần tử */
+    padding: 10px; /* kích thước của phần tử */
+    box-sizing: border-box; /* kích thước của khối sẽ được đo theo giá trị đi vào*/
+    /* padding-left: 10px; */
+    border: 1px solid red;
+}
+
+img {
+    max-width: 100%;
+}
+

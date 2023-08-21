@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Demo/images/sky-mvehfqz6w2ges2dj.jpg);
+    margin: 0 200px;
+    text-align: left;
+}
+
+.box {
+    width: calc(25% - 20px);
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #ffffff70;
+}
+
+.datetime {
+    margin: 10px 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .status {
+    float: right;
+}
