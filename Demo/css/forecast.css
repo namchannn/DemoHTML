@@ -1,0 +1,23 @@
+body {
+    background-image: url(../images/sky-mvehfqz6w2ges2dj.jpg);
+    background-size: cover;
+}
+
+.temp {
+    background-color: #00000060;
+    box-shadow: 0 0 5px #000000;
+    border: none;
+    height: 150px;
+}
+
+.temp p {
+    color: #fff;
+}
+
+.temp h2 {
+    color: #fff;
+}
+
+.temp img {
+    transform: translate(180px, -130px);
+}
